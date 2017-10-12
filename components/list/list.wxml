@@ -1,0 +1,11 @@
+<template name="list" >
+    <block wx:for="{{cells}}" wx:for-item="cellsItem" wx:for-index="cellsIndex" wx:key="cells">
+        <view class="list-item" bindtap="tapName" id="{{cellsItem.id}}">
+            <image src="{{cellsItem.src}}" class="list-item-img" />
+            <view class="list-item-label">
+                <view class="list-item-date">{{cellsItem.date}}</view>
+                <view class="list-item-title">{{cellsItem.title}}</view>
+            </view>
+        </view>
+    </block>
+</template>

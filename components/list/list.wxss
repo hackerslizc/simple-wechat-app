@@ -1,0 +1,37 @@
+.cells {
+    width: 100%;
+}
+.cell {
+    padding: 10px;
+}
+.list-item {
+    width: 100%;
+    height: auto;
+    float: left;
+}
+.list-item-img {
+    min-width: 100%;
+    min-height: 280px;
+    display: inline-block;
+}
+.list-item-label {
+    width: 100%;
+    font-size: 12px;
+    line-height: 24px;
+    float: left;
+    margin: 10px 0px;
+}
+.list-item-title {
+    float: left;
+    margin-left: 10px;
+    max-width:70%;
+    word-break:keep-all;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+.list-item-date {
+    color:#999;
+    float: right;
+    margin-right: 10px;
+}

@@ -1,0 +1,5 @@
+/**detail.wxss**/
+@import '../../components/formitem/formitem.wxss';
+.detail-big-img{
+  width: 100%;
+}

@@ -1,0 +1,3 @@
+<!--index.wxml-->
+<import src="../../components/list/list.wxml"/>
+<template is="list" data="{{cells: cells}}"/>

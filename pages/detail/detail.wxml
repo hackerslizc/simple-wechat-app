@@ -1,0 +1,81 @@
+<view>
+    <image src="{{item.url}}" class="detail-big-img" />
+    <view class="form-item">
+        <view class="form-item-label">drk</view>
+        <view class="form-item-content">
+            {{item.drk}}
+        </view>
+    </view>
+    <view class="form-item">
+        <view class="form-item-label">top</view>
+        <view class="form-item-content">
+            {{item.top}}
+        </view>
+    </view>
+    <view class="form-item">
+        <view class="form-item-label">bot</view>
+        <view class="form-item-content">
+            {{item.bot}}
+        </view>
+    </view>
+    <view class="form-item">
+        <view class="form-item-label">wp</view>
+        <view class="form-item-content">
+            {{item.wp}}
+        </view>
+    </view>
+    <view class="form-item">
+        <view class="form-item-label">startdate</view>
+        <view class="form-item-content">
+            {{item.startdate}}
+        </view>
+    </view>
+    <view class="form-item">
+        <view class="form-item-label">fullstartdate</view>
+        <view class="form-item-content">
+            {{item.fullstartdate}}
+        </view>
+    </view>
+    <view class="form-item">
+        <view class="form-item-label">enddate</view>
+        <view class="form-item-content">
+            {{item.enddate}}
+        </view>
+    </view>
+    <view class="form-item">
+        <view class="form-item-label">hsh</view>
+        <view class="form-item-content">
+            {{item.hsh}}
+        </view>
+    </view>
+    <view class="form-item">
+        <view class="form-item-label">url</view>
+        <view class="form-item-content">
+            {{item.url}}
+        </view>
+    </view>
+    <view class="form-item">
+        <view class="form-item-label">urlbase</view>
+        <view class="form-item-content">
+            {{item.urlbase}}
+        </view>
+    </view>
+    <view class="form-item">
+        <view class="form-item-label">copyright</view>
+        <view class="form-item-content">
+            {{item.copyright}}
+        </view>
+    </view>
+    <view class="form-item">
+        <view class="form-item-label">copyrightlink</view>
+        <view class="form-item-content">
+            {{item.copyrightlink}}
+        </view>
+    </view>
+    <view class="form-item">
+        <view class="form-item-label">quiz</view>
+        <view class="form-item-content">
+            {{item.quiz}}
+        </view>
+    </view>
+</view>

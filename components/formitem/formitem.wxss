@@ -1,0 +1,20 @@
+.form-item {
+    font-size: 12px;
+    display: flex;
+    line-height: 40px;
+    border-bottom: 1px solid #dedede;
+}
+.form-item-label {
+    flex: 2;
+    padding-left: 20px;
+    min-width: 120px;
+}
+.form-item-content {
+    flex: 5;
+    padding-right: 10px;
+}
+.form-item-text {
+    width: 100%;
+    height: 24px;
+    margin: 8px 0px;
+}

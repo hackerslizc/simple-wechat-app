@@ -1,0 +1,9 @@
+<template >
+    <block>
+        <view class="section">
+            <view class="">input</view>
+            <input name="input" placeholder="please input here" />
+            <input name="text" placeholder="please input here" />
+        </view>
+    </block>
+</template>
