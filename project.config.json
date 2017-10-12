@@ -3,7 +3,7 @@
 	"setting": {
 		"urlCheck": false,
 		"es6": true,
-		"postcss": false,
+		"postcss": true,
 		"minified": true
 	},
 	"compileType": "weapp",
@@ -12,13 +12,12 @@
 	"projectname": "wechatApp",
 	"condition": {
 		"weapp": {
-			"current": -1,
+			"current": 0,
 			"list": [
 				{
 					"id": 0,
 					"name": "子页面",
-					"pathName": "pages/create-group/createGroup",
-					"query": ""
+					"pathName": "pages/demo/demo"
 				}
 			]
 		},

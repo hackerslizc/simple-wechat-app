@@ -1,0 +1,40 @@
+.modal-wrap {
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.modal-mask {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, .5);
+  z-index: 1;
+}
+.modal-box {
+  background: #fff;
+  padding: 10px;
+  padding-bottom: 0px;
+  position: absolute;
+  border-radius: 2px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+}
+.modal-box .modal-title {
+  text-align: center;
+  font-size: 48rpx;
+}
+.modal-box .modal-content {
+  font-size: 36rpx;
+}
+.modal-box .modal-foot {
+  display: flex
+}
+.modal-box .modal-foot-btn{
+  flex: 1;
+  text-align: center;
+  line-height: 40px;
+}

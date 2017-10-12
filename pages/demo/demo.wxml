@@ -1,0 +1,15 @@
+<!--pages/demo/demo.wxml-->
+<view style='text-align: center'>
+<button size='mini' bindtap='showModalEventFn'>弹窗</button>
+</view>
+<view class='modal-wrap' animation="{{animationData}}" wx:if='{{isShowModal}}'>
+  <view class='modal-mask'></view>
+  <view class='modal-box'>
+    <view class='modal-title'>这里是title</view>
+    <view class='modal-content'>哈哈哈哈</view>
+    <view class='modal-foot'>
+      <view class='modal-foot-btn cancel' bindtap='hideModalEventFn'>取消</view>
+      <view class='modal-foot-btn confirm' bindtap='hideModalEventFn'>确定</view>
+    </view>
+  </view>
+</view>
